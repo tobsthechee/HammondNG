@@ -20,11 +20,11 @@ export default {
     return {
       currentTheme: {
         bodyBg: '#f9f7f5', // Light theme background
-        textColor: '#444',  // Light theme text color
+        textColor: '#FF4500',  // Light theme text color
         headerBg: '#f9f7f5', // Light theme header background
-        headerTextColor: '#35495e', // Light theme header text color
-        linkColor: '#39a275', // Light theme link color
-        buttonBg: '#39a275', // Light theme button background
+        headerTextColor: '#FF4500', // Light theme header text color
+        linkColor: '#FF4500', // Light theme link color
+        buttonBg: '#FF4500', // Light theme button background
         buttonTextColor: '#ffffff', // Light theme button text color
       },
     };
