@@ -1,35 +1,38 @@
-// CONTENT - Light Theme
-$color-body-bg-light: #f9f7f5;
-$color-text-light: #444;
-$color-heading-text-light: #35495e;
+// Light Theme Variables
+$light-theme-bg: #f9f7f5;
+$light-theme-text: #444;
+$light-theme-header-bg: #f9f7f5;
+$light-theme-header-text: #35495e;
+$light-theme-link: #39a275;
+$light-theme-button-bg: #39a275;
+$light-theme-button-text: #ffffff;
 
-// CONTENT - Dark Theme
-$color-body-bg-dark: #1e1e1e; // Example dark background
-$color-text-dark: #f9f9f9; // Example light text for dark mode
-$color-heading-text-dark: #e0e0e0; // Example light heading text for dark mode
+// Dark Theme Variables
+$dark-theme-bg: #1e1e1e;
+$dark-theme-text: #f9f9f9;
+$dark-theme-header-bg: #333;
+$dark-theme-header-text: #ffffff;
+$dark-theme-link: #39a275;
+$dark-theme-button-bg: #39a275;
+$dark-theme-button-text: #ffffff;
 
-// LINKS
-$color-link-text: #39a275;
-$color-link-text-active: $color-text-light;
+:root {
+  --body-bg: #{$light-theme-bg};
+  --text-color: #{$light-theme-text};
+  --header-bg: #{$light-theme-header-bg};
+  --header-text-color: #{$light-theme-header-text};
+  --link-color: #{$light-theme-link};
+  --button-bg: #{$light-theme-button-bg};
+  --button-text-color: #{$light-theme-button-text};
+}
 
-// INPUTS
-$color-input-border: lighten($color-heading-text-light, 50%);
-
-// BUTTONS
-$color-button-bg: $color-link-text;
-$color-button-disabled-bg: darken(desaturate($color-button-bg, 20%), 10%);
-$color-button-text: white;
-
-// Default Theme Variables
-$color-body-bg: $color-body-bg-light;
-$color-text: $color-text-light;
-$color-heading-text: $color-heading-text-light;
-
-// Mixin for applying theme
-@mixin theme($bg-color, $text-color, $heading-color) {
-  background-color: $bg-color;
-  color: $text-color;
-  h1, h2, h3, h4, h5, h6 {
-    color: $heading-color;
-  }
+/* Apply dark theme styles when appropriate */
+[data-theme="dark"] {
+  --body-bg: #{$dark-theme-bg};
+  --text-color: #{$dark-theme-text};
+  --header-bg: #{$dark-theme-header-bg};
+  --header-text-color: #{$dark-theme-header-text};
+  --link-color: #{$dark-theme-link};
+  --button-bg: #{$dark-theme-button-bg};
+  --button-text-color: #{$dark-theme-button-text};
 }
