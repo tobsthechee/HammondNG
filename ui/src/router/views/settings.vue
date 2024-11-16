@@ -210,14 +210,6 @@ export default {
             <td><a href="https://github.com/akhilrex/hammond" target="_blank">https://github.com/akhilrex/hammond</a></td>
           </tr>
           <tr>
-            <td>This fork</td>
-            <td><a href="https://github.com/tobsthechee/HammondNG" target="_blank">https://github.com/tobsthechee/HammondNG</a></td>
-          </tr>
-          <tr>
-            <td>This fork build date</td>
-            <td>2024.11.16</td>
-          </tr>
-          <tr>
             <td>Found a bug</td>
             <td
               ><a
@@ -242,6 +234,14 @@ export default {
           <tr>
             <td>Support the developer</td>
             <td><a href="https://www.buymeacoffee.com/akhilrex" target="_blank" rel="noopener noreferrer">Buy him a beer!</a></td>
+          </tr>
+          <tr>
+            <tr>
+            <td>This fork build date</td>
+            <td>2024.11.16</td>
+          </tr>
+            <td>This fork</td>
+            <td><a href="https://github.com/tobsthechee/HammondNG" target="_blank">https://github.com/tobsthechee/HammondNG</a></td>
           </tr>
         </table>
       </div>
