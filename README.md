@@ -1,5 +1,3 @@
-[![Contributors][contributors-shield]][contributors-url] [![Forks][forks-shield]][forks-url] [![Stargazers][stars-shield]][stars-url] [![Issues][issues-shield]][issues-url] [![MIT License][license-shield]][license-url] [![LinkedIn][linkedin-shield]][linkedin-url]
-
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
@@ -7,11 +5,11 @@
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a> -->
 
-  <h1 align="center" style="margin-bottom:0">Hammond</h1>
-  <p align="center">Current Version - 2022.07.06</p>
+  <h1 align="center" style="margin-bottom:0">HammondNG</h1>
+  <p align="center">Current Version - 2024.11.16</p>
 
   <p align="center">
-    A self-hosted vehicle expense tracking system with support for multiple users.
+    This is a fork of <a href="https://github.com/akhilrex/hammond">akhilrex/hammond</a> - a selfhosted fuel log. I have tried (and kinda succeeded) to add the dark mode.
     <br />
     <a href="https://github.com/akhilrex/hammond"><strong>Explore the docs »</strong></a>
     <br />
