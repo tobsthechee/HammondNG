@@ -1,16 +1,35 @@
-// CONTENT
-$color-body-bg: #f9f7f5;
-$color-text: #444;
-$color-heading-text: #35495e;
+// CONTENT - Light Theme
+$color-body-bg-light: #f9f7f5;
+$color-text-light: #444;
+$color-heading-text-light: #35495e;
+
+// CONTENT - Dark Theme
+$color-body-bg-dark: #1e1e1e; // Example dark background
+$color-text-dark: #f9f9f9; // Example light text for dark mode
+$color-heading-text-dark: #e0e0e0; // Example light heading text for dark mode
 
 // LINKS
 $color-link-text: #39a275;
-$color-link-text-active: $color-text;
+$color-link-text-active: $color-text-light;
 
 // INPUTS
-$color-input-border: lighten($color-heading-text, 50%);
+$color-input-border: lighten($color-heading-text-light, 50%);
 
 // BUTTONS
 $color-button-bg: $color-link-text;
 $color-button-disabled-bg: darken(desaturate($color-button-bg, 20%), 10%);
 $color-button-text: white;
+
+// Default Theme Variables
+$color-body-bg: $color-body-bg-light;
+$color-text: $color-text-light;
+$color-heading-text: $color-heading-text-light;
+
+// Mixin for applying theme
+@mixin theme($bg-color, $text-color, $heading-color) {
+  background-color: $bg-color;
+  color: $text-color;
+  h1, h2, h3, h4, h5, h6 {
+    color: $heading-color;
+  }
+}
