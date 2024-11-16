@@ -22,6 +22,11 @@
 
 ![Player](images/users.jpg)
 
+## Toggle for light/dark mode
+
+![Player](images/ui_light.png)
+![Player](images/ui_dark.png)
+
 ## Settings
 
 ![Podcast Episodes](images/settings.jpg)
