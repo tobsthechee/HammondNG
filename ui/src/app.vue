@@ -20,11 +20,11 @@ export default {
     return {
       currentTheme: {
         bodyBg: '#f9f7f5', // Light theme background
-        textColor: '#FF4500',  // Light theme text color
+        textColor: '#ff4500',  // Light theme text color
         headerBg: '#f9f7f5', // Light theme header background
-        headerTextColor: '#FF4500', // Light theme header text color
-        linkColor: '#FF4500', // Light theme link color
-        buttonBg: '#FF4500', // Light theme button background
+        headerTextColor: '#ff4500', // Light theme header text color
+        linkColor: '#ff4500', // Light theme link color
+        buttonBg: '#ff4500', // Light theme button background
         buttonTextColor: '#ffffff', // Light theme button text color
       },
     };
@@ -43,7 +43,7 @@ export default {
     setTheme(theme) {
       if (theme === 'dark') {
         this.currentTheme.bodyBg = '#1e1e1e';
-        this.currentTheme.textColor = '#f9f9f9';
+        this.currentTheme.textColor = '#ff4500';
         this.currentTheme.headerBg = '#333';
         this.currentTheme.headerTextColor = '#ffffff';
         this.currentTheme.linkColor = '#39a275'; // Ensure link color is readable on dark
@@ -51,7 +51,7 @@ export default {
         this.currentTheme.buttonTextColor = '#ffffff';
       } else {
         this.currentTheme.bodyBg = '#f9f7f5';
-        this.currentTheme.textColor = '#444';
+        this.currentTheme.textColor = '#ff4500';
         this.currentTheme.headerBg = '#f9f7f5';
         this.currentTheme.headerTextColor = '#35495e';
         this.currentTheme.linkColor = '#39a275';
